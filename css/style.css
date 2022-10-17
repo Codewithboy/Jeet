@@ -1,0 +1,361 @@
+.cloud-form {
+    width: 100%;
+    position: relative;
+    background: #9e9ea7;
+}
+
+.cloud-form .carousel-item .right-part {
+    width: 100%;
+    position: relative;
+
+}
+
+.cloud-form .carousel-item .right-part .card-login-part {
+    width: 100%;
+    height: 400px;
+}
+
+.cloud-form .carousel-item .right-part .card-login-part .card-content {
+    width: 100%;
+    position: relative;
+}
+
+.cloud-form .carousel-item .right-part .card-login-part .card-content .graph-img {
+    width: 100%;
+
+}
+
+.cloud-form .carousel-item .right-part .card-login-part .card-content .graph-img img {
+    width: 100%;
+}
+
+
+.division-part {
+    width: 100%;
+    position: relative;
+    padding: 15px 0px 0px 0px;
+    position: absolute;
+    bottom: 128px;
+}
+
+.division-part .icon-part {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    padding: 25px;
+    /* margin: 0 auto; */
+}
+.division-part .icon-part::before {
+    position: absolute;
+    content: " ";
+    width: 80px;
+    height: 3px;
+    color: grey;
+    background: grey;
+    left: -80px;
+    bottom: 75px;
+}
+.division-part .icon-part::after {
+    position: absolute;
+    content: " ";
+    width: 80px;
+    height: 3px;
+    color: grey;
+    background: grey;
+    left: 80px;
+    top: 55px;
+}
+
+.division-part .icon-part i {
+    font-size: 30px;
+
+}
+.division-part h3{
+    font-size: 23px;
+    color: #000;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 600;
+    margin: 5px 0px  ;
+}
+
+.news-part{
+    margin-top: 100px;
+    position: relative;
+}
+.news-part h3{
+ font-size: 30px;
+ color: #000;
+ font-weight: 600; 
+ text-transform: capitalize;
+ font-style: normal;   
+ margin-bottom: 20px;
+}
+.news-part .news-detail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+    
+
+}
+.news-part .news-detail .news-img{
+    width: 100px;
+    margin: 0px 25px 0px 0px;
+}
+.news-part .news-detail .news-img img{
+    width: 100%;
+}
+.news-part .news-detail .detail-part{
+    position: relative;
+}
+
+.news-part .news-detail .detail-part h4{
+    font-size: 20px;
+ color: #000;
+ font-weight: 600; 
+ text-transform: capitalize;
+ font-style: normal;   
+ 
+}
+.news-part .news-detail .detail-part p{
+    font-size: 20px;
+    color: #000;
+    font-weight: 400; 
+    text-transform: capitalize;
+    font-style: normal;   
+}
+
+.news-middle-part{
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+.news-middle-part h3{
+    font-size: 30px;
+    color: #000;
+    font-weight: 600; 
+    text-transform: capitalize;
+    font-style: normal;   
+    margin-bottom: 20px;
+}
+.news-middle-part .news-youtube{
+    width: 100%;
+    border: 1px solid #000;
+    padding: 10px;
+}
+.news-middle-part .middle-last-img{
+    width: 270px;
+    margin: 20px 0px;
+}
+.news-middle-part .middle-last-img img{
+    width: 100%;
+}
+.news-right-part{
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+.news-right-part h3{
+    font-size: 30px;
+    color: #000;
+    font-weight: 600; 
+    text-transform: capitalize;
+    font-style: normal;   
+    margin-bottom: 20px;
+}
+.news-right-part .right-img{
+    width: 290px;
+    margin-bottom: 30px;
+}
+.news-right-part .right-img a{
+  text-decoration: none;
+}
+.news-right-part .right-img a p{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.news-right-part .right-img a img{
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    background: grey;
+    padding: 10px;
+    margin: 20px 0px ;
+}
+.footer .footer-left{
+    width: 100%;
+    position: relative;
+}
+.footer .footer-left h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+
+}
+.footer .footer-left p{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    font-style: normal;
+}
+.footer .footer-left .footer-icon{
+    text-decoration: none;
+    margin-top: 30px;
+}
+.footer .footer-left .footer-icon ul {
+    display: flex;
+    position: relative;
+    padding: 0;
+}
+.footer .footer-left .footer-icon ul li{
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    margin-right: 14px;
+    padding: 6px 0px 0px 10px ;
+    
+
+}
+.footer .footer-left .footer-icon ul li a{
+    color: #fff;
+    padding-right: 5px;
+}
+.footer .footer-left .footer-icon ul li a i{
+    font-size: 20px;
+}
+.footer .footer-right-part{
+    width: 100%;
+    position: relative;
+    padding: 25px 0px ;
+}
+.footer .footer-right-part ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-right-part ul li{
+    list-style: none;
+    margin-right: 13px;
+}
+.footer .footer-right-part ul li a{
+    text-decoration: none;
+}
+.footer .footer-right-part ul li a p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-style: normal;
+}
+
+
+/* ===========  Second-Part- Start ============ */
+ .second-part{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    padding: 100px;
+ }
+ .second-part .profile-part{
+    width: 100%;
+    text-align: right;
+ }
+ .second-part .profile-part h1{
+    text-align: end;
+    font-size: 60px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+
+ }
+ .profile-detail{
+    width: 100%;
+    padding: 20px 0px ;
+ }
+ .profile-detail h2{
+    font-size: 30px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+ }
+
+ .profile-detail .office-detail{
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+ }
+ .profile-detail .office-detai h4{
+    font-size: 30px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+ }
+ .profile-detail .office-detail p{
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 0px 0px 0px 18px  ;
+    padding-bottom: 10px;
+ }
+ .profile-img-part{
+    width: 100%;
+    padding: 10px;
+ }
+ .profile-img-part .img-part{
+    width: 100%;
+ }
+ .profile-img-part .img-part img{
+    width: 100%;
+ }
+
+ .website-detail{
+    width: 100%;
+    position: relative;
+    background-color: grey;
+    padding: 50px;
+ }
+
+ .website-detail .website{
+    width: 100%;
+    position: relative;
+    text-align: end;
+ }
+
+ .website-detail .website a{
+    text-decoration: none;
+ }
+ .website-detail .website a p{
+    font-size: 25px;
+    color: #fff;
+    text-align: end;
+ }
+
+
+
+
+
+
+
+/* ===========  Second-Part- End ============ */
